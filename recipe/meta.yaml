@@ -1,5 +1,5 @@
 {% set name = "quicfire-tools" %}
-{% set version = "0.10.3" %}
+{% set version = "0.11.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/quicfire_tools-{{ version }}.tar.gz
-  sha256: c0c56fb12124651e3aaabab8409738a8d3e8039323a48459e94eaf359273faeb
+  sha256: 91456ccc7148e3327d0ac75e6035d5a022a97fe0bc520b5257845c9453a49b1a
 
 build:
   noarch: python
